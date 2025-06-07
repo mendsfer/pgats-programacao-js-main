@@ -29,14 +29,13 @@ jobs:
         run: npm install -g yarn
 
       # entrando na pasta do projeto
-      - name: Instalando dependências no projeto
+      - name: entrando na pasta do projeto
         run:
           cd testes
 
       # instalação das dependências
       - name: Instalando dependências no projeto
         run:
-          cd testes
           yarn            
 
       # instalação do Playwright
