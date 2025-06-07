@@ -30,22 +30,16 @@ jobs:
 
       # entrando na pasta do projeto
       - name: entrando na pasta do projeto
-        run:
-          cd testes
+        run: cd testes
 
       # instalação das dependências
       - name: Instalando dependências no projeto
-        run:
-          yarn            
+        run: yarn            
 
       # instalação do Playwright
       - name: Instalando Playwright
-        run: 
-          cd testes
-          yarn playwright install
+        run: yarn playwright install
 
       # executar os e2e
       - name: Executando Testes E2E
-        run: 
-          cd testes
-          yarn run e2e
+        run: yarn run e2e
