@@ -42,4 +42,4 @@ jobs:
 
       # executar os e2e
       - name: Executando Testes E2E
-        run: npm run test:01-testes
+        run: yarn run e2e
