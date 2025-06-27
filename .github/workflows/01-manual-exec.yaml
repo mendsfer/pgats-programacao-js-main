@@ -34,11 +34,11 @@ jobs:
 
       # instalação das dependências
       - name: Instalando dependências no projeto
-        run: yarn install            
+        run: yarn            
 
       # adicionando do Playwright
       - name: Instalando Playwright
-        run: yarn add playwright
+        run: yarn playwright install
 
       # executar os e2e
       - name: Executando Testes E2E
