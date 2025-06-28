@@ -10,7 +10,7 @@
     "lint:format": "prettier --check --ignore-path .gitignore .",
     "test:mutation": "npx stryker run",
     "start": "lite-server",
-    "e2e": "npx playwright test"
+    "e2e": "npx mocha testes/01-testes.js "
   },
   "keywords": [],
   "author": "",

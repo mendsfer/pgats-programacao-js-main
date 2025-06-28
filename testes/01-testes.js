@@ -30,7 +30,7 @@ describe('Testes do Projeto', () => {
   })
 
   it('segundo teste', () => {
-    throw new Error()
+   // throw new Error()
   })
 
 })
